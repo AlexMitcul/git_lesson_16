@@ -17,7 +17,7 @@ void bubbleSort(std::vector<int>& arr) {
 }
 
 int main() {
-    std::vector<int> arr = {64, 34, 25, 12, 22, 11, 90};
+    std::vector<int> arr = {1,2,3,4,5,6,7,8,9,10};
     bubbleSort(arr);
     std::cout << "Sorted array is: ";
     for (int i = 0; i < arr.size(); ++i)
