@@ -1,5 +1,5 @@
 int main() {
-    std::vector<int> arr2 = {1,2,3,4,5};
+    std::vector<int> arr2 = {1,1,1,1,1,1};
     bubbleSort(arr2);
     std::cout << "Sorted array is: ";
     for (int i = 0; i < arr2.size(); ++i)
